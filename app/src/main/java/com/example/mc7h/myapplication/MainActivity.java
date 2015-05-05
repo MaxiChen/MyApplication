@@ -14,7 +14,8 @@ public class MainActivity extends ActionBarActivity {
         String test ="test";
         String test1 ="test1";
         setContentView(R.layout.activity_main);
-       // gehe yewefr22rg
+        //branch_master
+        test ="branch";
     }
 
 
