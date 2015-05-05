@@ -20,7 +20,6 @@ public class MainActivity extends ActionBarActivity {
         //newtest
         //batewec
         //0551
-        //0553
     }
 
 
