@@ -4,6 +4,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -14,21 +18,17 @@ public class MainActivity extends ActionBarActivity {
         String test ="test";
         String test1 ="test1";
         setContentView(R.layout.activity_main);
-        //branch_master
-        test ="branch";
-        //newtest
-        //batewec
-        //0551
-        //0553
-        //0604
-        //1149
-        //0806
-
-        //test Branch 0935
-        //test again 1135
+        Button buttont = (Button)findViewById(R.id.buttontest);
+        buttont.setOnClickListener(testc);
     }
 
-
+    private OnClickListener testc = new OnClickListener(){
+        public void onClick(View v)
+        {
+            TextView oupput =(TextView)findViewById(R.id.textView);
+            oupput.setText("CheckButton");
+        }
+    };
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -44,7 +44,6 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
