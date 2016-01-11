@@ -8,7 +8,7 @@ test
 url:http://stoa07:8888/Somalia/login
 requestBody:  
 ```json
-{"user":"neweggboxccc", "password": "admin"  }  
+{  "user":"neweggboxccc",  "password": "admin"  }  
 ```
 ####HttpMethod
 **POST**
