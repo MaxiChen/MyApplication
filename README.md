@@ -5,7 +5,9 @@ test
 ###URL:{SomaliaSite}/login
 ###Sample:url:http://stoa07:8888/Somalia/login
 requestBody:  
-```json {"user":"neweggboxccc", "password": "admin"  }  ```
+```json
+{"user":"neweggboxccc", "password": "admin"  }  
+```
 ####HttpMethod:POST
 ####Headers:```Content-Type:application/json```
 ####RequestBody: ```{  "user":"test",  "password":"xxxxxx" }```
